@@ -1,72 +1,63 @@
-<!--
-    Identity: A Personal One Page Identity Template
-    Open Source and Free to Use
-    Author: Ayush Agarwal (http://thisisayush.com)
--->
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Identity | A Personal One-Page Identity Template</title>
+        <title>Disha Garg's corner</title>
         <!-- Meta Tags -->
-        <link rel="icon" type="image/png" href="favicon.png" />
+        <link rel="icon" type="image/png" href="favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!-- SEO -->
-        <meta name="keywords" content="Single Page Template, HTML5 Template, CSS Template, Personal Identity Template, Personal Portfolio Template" />
-        <meta name="description" content="A single page Personal Identity Template written smoothly in CSS, HTML5 and JS." />
+        <meta name="keywords" content="architect, architecture, planning, building, design, SPA, disha, garg, new delhi, freelance, hire, linkedin, facebook, instagram, behance" />
+        <meta name="description" content="Disha Garg's corner of the web" />
         <!-- CSS -->
         <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
-        <div id="loader">
-            <div class="spinner absolute-center">
-                <span class="fa fa-circle-o-notch fa-spin fa-2x"></span>
-            </div>
+            <div id="particles-js"></div>
+            <div id="wrapper">
+                <section id="main" class="block-center">
+                    <header>
+                        <span class="avatar block-center">
+                            <img src="images/avatar.png" alt="Avatar"/>
+                        </span>
+                        <h1>Disha Garg</h1>
+                        <p id="post">Architect</p>
+                    </header>
+                    <footer>
+                        <ul class="icons">
+                            <li>
+                                <a href="https://www.behance.net/dishagarg74273" class="fa fa-behance"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/dishadishki/" class="fa fa-instagram"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/disha-garg-068630159/" class="fa fa-linkedin"></a>
+                            </li>
+                            <li>
+                                <a href="mailto:dishagarg79@gmail.com" class="fa fa-download"></a>
+                            </li>
+                        </ul>
+                    </footer>
+                </section>
+            </>
         </div>
-        <div id="grab_on_github" style="position:fixed;top:5px;right:0;padding:4px;background:rgba(255,255,255,0.4);z-index:9999;">
-            <a href="https://github.com/thisisayush/identity">Grab it on <i class="fa fa-github"></i></a>
-        </div>
-        <div id="wrapper">
-            <section id="main" class="block-center">
-                <header>
-                    <span class="avatar block-center">
-                        <img src="images/avatar.svg" alt="Avatar"/>
-                    </span>
-                    <h1>Lorem Ipsum</h1>
-                    <p id="post">UI/UX Designer</p>
-                </header>
-                <footer>
-                    <ul class="icons">
-                        <li>
-                            <a href="#" class="fa fa-twitter"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="fa fa-instagram"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="fa fa-facebook"></a>
-                        </li>
-                    </ul>
-                </footer>
-            </section>
-            <footer id="footer">
-                <p>Design by <a href="http://thisisayush.com" target="_blank" title="Ayush Agarwal">Ayush Agarwal</a> | 2017</p>
-            </footer>
-        </div>
+        <!-- <script src="app.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
         <script>
+            particlesJS.load('particles-js', 'particles.json', function() {
+                console.log('callback - particles.js config loaded');
+              });
             window.onload = function(){
                 var i = 0;
-                var post = ["Donec ultrices","Praesent scelerisque","Donec accumsan"];
-                setTimeout(function(){
-                    document.getElementById("loader").remove();
-                },2000);
+                var post = ["Architect","Adaptive","Globetrotter", "Passionate"];
                 setInterval(function(){
                     if(i>=post.length)
-                        i = 0;
+                    i = 0;
                     var el = document.getElementById("post");
                     el.innerHTML = post[i];
                     i++;
-                },2000);
+                },1500);
             }
         </script>
     </body>
-</html>
+    </html>

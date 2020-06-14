@@ -1,13 +1,7 @@
-### Identity: A Personal One Page Identity Template 
+### Direction Portfolio
 
-Responsive (Support for screens width>300px)<br/>
-~10kb in Size<br/>
-Easy to Edit<br/>
-Gradient Background Overlay<br/>
-SEO Ready<br/>
-Supports Font-Awesome Icons<br/>
-Open Source and Free to Use for Commercial Purposes<br/>
+Developed for direction available over on
 
-Check demo at: [Click Here](http://thisisayush.com/demos/identity)<br/>
-Support the Developer: [Click Here](http://paypal.me/thisisayush)<br/>
-Contact the Developer: [Click Here](http://thisisayush.com)<br/>
+Developed by 🐣
+
+Thank you to @thisisayush for his base [identity portfolio](https://github.com/thisisayush/identity)
